@@ -1,1 +1,1 @@
-#Type Alias vs Interface in TypeScript: What’s the Difference?
+**Type Alias vs Interface in TypeScript: What’s the Difference?**
