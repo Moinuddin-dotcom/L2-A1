@@ -2,7 +2,7 @@
 
 In TypeScript, both `interface` and `type` can be used to describe the shape of data. While they often appear similar, there are key differences that make each suited for different scenarios.
 
-## **✅ Primitive Types: Only with Type Alias:**
+### **✅ Primitive Types: Only with Type Alias:**
 
     - type RollNumber = number;
 
@@ -25,11 +25,11 @@ type User = {
 };
 ```
 
-**✅ Extending Types**
+### **✅ Extending Types**
 
 We can extend or compose types in both:
 
-**Using type with intersection:**
+### **Using type with intersection:**
 
 ```
 type User = {
@@ -46,7 +46,7 @@ const user: UserWithRole = {
 };
 ```
 
-**Using interface with extends:**
+### **Using interface with extends:**
 
 ```
 interface User {
@@ -65,7 +65,7 @@ const user: UserWithRole = {
 };
 ```
 
-**✅ Arrays: Possible with Both, Cleaner with Type Alias**
+### **✅ Arrays: Possible with Both, Cleaner with Type Alias**
 
 Type aliases are generally cleaner for arrays:
 ```
@@ -84,7 +84,7 @@ interface RollNumbers {
 const rolls: RollNumbers = [1, 2, 3];
 ```
 
-**✅ Functions: Both Work**
+### **✅ Functions: Both Work**
 
 We can describe function types using both:
 
@@ -101,7 +101,7 @@ const add: AddFn = (num1, num2) => num1+ num2;
 ```
 
 
-**🎯 Finally**
+## **🎯 Finally**
 - Use `type` for **primitives**, **arrays**, **tuples, and union types**.
 - Use `interface` when working with **object shapes**, especially when you expect to extend them.
 - For **arrays and functions**, `type` is often cleaner, but both approaches are valid.
