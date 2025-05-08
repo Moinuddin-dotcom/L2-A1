@@ -8,7 +8,7 @@ In TypeScript, both `interface` and `type` can be used to describe the shape of 
 
 We cannot use `interface` for primitives like `number`, `string`, etc., because `interface` is designed to describe the shape of objects.
 
-**✅ Objects: Both Type Alias and Interface**
+### **✅ Objects: Both Type Alias and Interface**
 Both type and interface can be used to describe object shapes:
 
 ```
