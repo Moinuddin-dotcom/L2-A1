@@ -2,7 +2,7 @@
 
 In TypeScript, both `interface` and `type` can be used to describe the shape of data. While they often appear similar, there are key differences that make each suited for different scenarios.
 
-**✅ Primitive Types: Only with Type Alias:**
+## **✅ Primitive Types: Only with Type Alias:**
 
     - type RollNumber = number;
 
