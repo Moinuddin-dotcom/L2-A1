@@ -26,3 +26,11 @@
 // }
 
 // console.log(filterByRating(books))
+
+
+// Problem 3
+
+// function concatenateArrays<T>(...arrays: T[][]): T[] {
+//     return arrays.reduce((acc, curr) => acc.concat(curr), []);
+// }
+// console.log(concatenateArrays([1, 2], [3, 4], [5]))
