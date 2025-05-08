@@ -65,3 +65,21 @@
 // const myCar = new Car("Toyota", 2020, "Corolla");
 // myCar.getInfo();
 // myCar.getModel();
+
+
+
+// Problem 5
+
+// function processValue(value: string | number): number {
+//     if (typeof value === "string") {
+//         const valLength = value.length;
+//         console.log(valLength)
+//         return valLength;
+//     } else {
+//         console.log(value * 2)
+//         return value * 2;
+//     }
+// }
+
+// processValue("hello");
+// processValue(10);
