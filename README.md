@@ -24,3 +24,8 @@ type User = {
   age: number;
 };
 ```
+
+**✅ Extending Types**
+*We can extend or compose types in both:*
+
+Using type with intersection:
